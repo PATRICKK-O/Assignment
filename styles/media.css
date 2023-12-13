@@ -1,0 +1,254 @@
+@media (max-width: 1100px) {
+  .main-food-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+  }
+  .food-container {
+    width: 450px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .details-container {
+    max-width: 450px;
+    padding-right: 0;
+  }
+  .details-container h2 {
+    font-size: 22px;
+  }
+  .details-container div {
+    font-size: 14px;
+    text-decoration: underline;
+    color: red;
+  }
+  .promoted {
+    font-size: 13px;
+    padding: 4px 5px;
+  }
+  .rating {
+    padding: 2px 7px;
+  }
+  .background-image-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .background-image {
+    background: url("../images/pics5.jpg") no-repeat center center/cover;
+    width: 100%;
+  }
+  .main-form-container {
+    width: 100%;
+    height: 700px;
+  }
+  .fa-chevron-left,
+  .fa-chevron-right {
+    font-size: 23px;
+  } 
+  .fa-chevron-left {
+    margin-right: 50px;
+  }
+  .fa-chevron-right {
+    margin-left: 260px;
+  } 
+}
+
+@media (max-width: 1000px) {
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .first-image {
+    width: 100%;
+  }
+  .row-two {
+    display: flex;
+    flex-direction: column;
+  }
+  .food-write-up {
+    width: 100%;
+    height: 320px;
+  }
+  .food-write-up h2 {
+    font-size: 30px;
+  }
+  .food-write-up div {
+    font-size: 16px;
+    color: rgb(231, 225, 225);
+    line-height: 22px;
+  }
+  .fa-chevron-left,
+  .fa-chevron-right {
+    font-size: 21px;
+  } 
+  .banner-content-container h2 {
+    font-size: 42px;
+  }
+  .banner-content-container div {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 865px) {
+  .fa-chevron-left {
+    margin-right: 40px;
+  }
+  .fa-chevron-right {
+    margin-left: 205px;
+  } 
+}
+
+@media (max-width: 800px) {
+  .overlay{
+    padding: 180px 0;
+    padding-left: 20px;
+  }
+  .input {
+    width: 400px;
+  }
+  .message {
+    height: 100px;
+  }
+  .form-button {
+    height: 30px;
+    width: 400px;
+  }
+  .main-form-container {
+    width: 100%;
+    height: 550px;
+  }
+  .fa-chevron-left,
+  .fa-chevron-right {
+    font-size: 20px;
+  } 
+  .fa-chevron-left {
+    margin-right: 36px;
+  }
+  .fa-chevron-right {
+    margin-left: 180px;
+  } 
+  .banner-content-container h2 {
+    font-size: 40px;
+  }
+  .banner-content-container div {
+    font-size: 16px;
+  }
+  .readmore-button {
+    height: 31px;
+    width: 80px;
+  }
+  .order-button {
+    color: red;
+    background-color: white;
+    height: 31px;
+    width: 90px;
+    border: 1px solid red;
+  }
+}
+
+@media (max-width: 750px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 710px) {
+  .title-div {
+    display: none;
+  }
+  .fa-bars-div {
+    display: block;
+  }
+  .fa-chevron-left {
+    margin-right: 30px;
+  }
+  .fa-chevron-right {
+    margin-left: 60px;
+  } 
+}
+
+
+@media (max-width: 500px) {
+  .main-food-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+  }
+  .food-container {
+    width: 320px;
+  }
+  .details-container {
+    max-width: 320px;
+    padding-right: 0;
+  }
+  .food-write-up {
+    width: 100%;
+    height: 260px;
+  }
+  .food-write-up h2 {
+    font-size: 28px;
+  }
+  .food-write-up div {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .promoted {
+    font-size: 12px;
+    padding: 3px 4px;
+  }
+  .rating {
+    padding: 0 6px;
+  }
+  .main-form-container h2 {
+    font-size: 20px;
+  }
+  .input {
+    width: 300px;
+  }
+  .message {
+    height: 100px;
+  }
+  .form-button {
+    height: 30px;
+    width: 300px;
+  }
+  .fa-chevron-right {
+    margin-left: 40px;
+  } 
+}
+
+@media (max-width: 400px) {
+  .food-write-up div {
+    font-size: 11px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .food-write-up div {
+    font-size: 10px;
+    line-height: 19px;
+  }
+  .main-food-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+  }
+  .main-form-container h2 {
+    font-size: 18px;
+  }
+  .food-container {
+    width: 280px;
+  }
+  .details-container {
+    max-width: 280px;
+  }
+  .input {
+    width: 260px;
+  }
+  .form-button {
+    height: 30px;
+    width: 260px;
+  }
+}

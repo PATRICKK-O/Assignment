@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+.banner-container {
+  background: url("../images/pics1.jpg") no-repeat center center/cover;
+}
+.banner-content-container h2 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 12px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.banner-content-container div {
+  color: white;
+  font-size: 21px;
+  margin-bottom: 15px;
+  font-family: Arial;
+}
+.fa-chevron-left,
+.fa-chevron-right {
+  color: rgb(161, 156, 156);
+  font-size: 28px;
+} 
+.fa-chevron-left {
+  margin-right: 80px;
+}
+.fa-chevron-right {
+  margin-left: 300px;
+} 
+.overlay{
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 250px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial;
+}
+header h2 {
+  color: red;
+  cursor: pointer;
+}
+header h2:hover {
+  opacity: 0.7;
+}
+.title-div {
+  display: inline;
+}
+.fa-bars-div {
+  display: none;
+  font-size: 20px;
+  border: 1px solid rgb(187, 177, 177);
+  padding: 6px 10px;
+}
+.title {
+  font-size: 14px;
+  cursor: pointer;
+  padding: 9px;
+  border-radius: 2px;
+  display: inline;
+}
+.title:hover {
+  background-color: rgb(196, 83, 83);
+  color: white;
+}
+.readmore-button {
+  color: white;
+  background-color: red;
+  border: none;
+  height: 36px;
+  width: 90px;
+}
+.order-button {
+  color: red;
+  background-color: white;
+  height: 36px;
+  width: 100px;
+  border: 1px solid red;
+}
+.main-image-container {
+  margin-bottom: 60px;
+}
+.row {
+  display: flex;
+}
+.first-image {
+  width: 50%;
+}
+.food-write-up {
+  background-color: rgb(206, 64, 64);
+  width: 50%;
+  color: white;
+  font-family: 'Emilys Candy', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.food-write-up div {
+  font-size: 14px;
+  color: rgb(231, 225, 225);
+  line-height: 20px;
+}
+.food-write-up h2 {
+  font-size: 27px;
+}
+.two {
+  background-color: rgb(23, 138, 23);
+}
+.main-food-container {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: flex;
+}
+.food-container {
+  width: 320px;
+  background-color: white;
+  border: 1px solid rgb(218, 212, 212);
+  font-family: Arial;
+  box-shadow: 3px 3px 3px rgb(184, 183, 183);
+  margin-right: 20px;
+}
+.food-container img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+.details-container {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  font-family: Arial;
+}
+.details-container h2 {
+  margin: 0;
+  font-size: 21px;
+}
+.details-container div {
+  font-size: 13px;
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}
+.details-container div:hover {
+  font-weight: bold;
+}
+.image-container {
+  position: relative;
+}
+.promoted {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: green;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 4px;
+  border-radius: 3px;
+}
+.fa-star {
+  color: white;
+  font-size: 11px;
+}
+.rating {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  display: inline;
+  padding: 0 6px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.rating p {
+  display: inline;
+  color: white;
+  font-size: 11px;
+}
+.fa-heart {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  right: 0;
+  top: 0;
+}
+.food-container h4 {
+  margin: 0;
+  font-size: 18px;
+}
+.food-content {
+  padding: 15px 15px;
+}
+.food-time img {
+  width: 20px;
+  height: 18px;
+  margin-top: 9px;
+}
+.food-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: 6px;
+} 
+.food-time div {
+  display: flex;
+  align-items: center;
+}
+.fa-clock {
+  font-size: 11px;
+  margin-bottom: 1px;
+  margin-right: 3px;
+}
+.food-time div p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.food-price {
+  font-size: 13px;
+  color: rgb(161, 156, 156);
+}
+.food-paragraph {
+  font-size: 13px;
+  color: rgb(85, 84, 84);
+}
+.food-coupon button {
+  align-self: start;
+  border: none;
+  background-color: rgb(194, 81, 81);
+  height: 20px;
+  color: white;
+  font-size: 12px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+}
+.food-coupon p {
+  display: inline;
+  font-size: 14px;
+  color: rgb(85, 84, 84);
+}
+.background-image-container {
+  display: flex;
+}
+.background-image {
+  background: url("../images/pics5.jpg") no-repeat left center/cover;
+  padding: 350px 0;
+  width: 40%;
+}
+.main-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 64, 64);
+  width: 60%;
+  font-family: Arial;
+  color: white;
+}
+form {
+  color: white;
+}
+.input {
+  background-color: transparent;
+  height: 34px;
+  width: 600px;
+  border: 1px solid white;
+  color: rgb(221, 212, 212);
+  padding-left: 8px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+::placeholder {
+  color: rgb(221, 212, 212);
+}
+.message {
+  height: 130px;
+  color: white;
+}
+.form-button {
+  height: 30px;
+  width: 600px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(23, 138, 23);
+  border-radius: 4px; 
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.form-button:hover {
+  opacity: 0.9;
+}
+.closure-div {
+  background-color: rgb(73, 75, 73);
+  padding: 12px 0;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-weight: bold;
+}
+.host {
+  color: bisque;
+  font-weight: bold;
+}
