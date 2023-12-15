@@ -152,7 +152,6 @@
     padding: 0 5px;
   }
 }
-
 @media (max-width: 710px) {
   .title-div {
     display: none;
